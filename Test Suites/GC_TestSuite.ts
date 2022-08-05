@@ -12,19 +12,31 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ee8ea9f0-d032-4e2e-8e84-b59bd7909904</testSuiteGuid>
    <testCaseLink>
-      <guid>ecc35ff7-f3e1-43cd-922c-484d343b1216</guid>
+      <guid>da7b9dda-83fd-4904-8a97-7c6f4143aad2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Signup_GC_User</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ea5a8019-7534-4a49-8838-b5a49b0514b4</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/GC_SignUP_Data</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/GC_Curb</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76f0854d-a6b2-41a8-8b4b-b05128342e83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GC_DriveThru</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>484c667e-9aa8-4b2e-9c5e-c569c01a1836</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GC_LoginUpdated</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cee5f5ad-dcc6-4f28-82fd-30dbd3622237</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GC_SignUP_NEW</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

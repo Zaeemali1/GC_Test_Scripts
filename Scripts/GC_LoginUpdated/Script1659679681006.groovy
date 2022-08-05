@@ -17,16 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\DELL\\Downloads\\app-qa-debug.apk', true)
 
-Mobile.startApplication('C:\\Users\\DELL\\Downloads\\app-dev-debug.apk', true)
+Mobile.tap(findTestObject('Object Repository/GC_LoginUpdated/android.widget.EditText - Phone Number'), 0)
 
-Mobile.tap(findTestObject('Object Repository/GC_storeClosed/android.widget.Button - Order'), 0)
-
-Mobile.getText(findTestObject('Object Repository/GC_storeClosed/android.widget.Button - Store Closed - Opens at Friday 1100 AM'), 
+Mobile.setText(findTestObject('Object Repository/GC_LoginUpdated/android.widget.EditText - Phone Number (1)'), '3155134066', 
     0)
 
-Mobile.tap(findTestObject('Object Repository/GC_storeClosed/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/GC_LoginUpdated/android.widget.Button - Login'), 0)
+
+Mobile.delay(5)
+
+Mobile.setText(findTestObject('Object Repository/GC_LoginUpdated/android.widget.EditText'), '9999', 0)
+
+Mobile.tap(findTestObject('Object Repository/GC_LoginUpdated/android.widget.TextView - All Stores'), 0)
+
+Mobile.delay(5)
+
+Mobile.tap(findTestObject('Object Repository/GC_LoginUpdated/android.widget.TextView - GC-Test Kitchen'), 0)
+
+Mobile.getText(findTestObject('Object Repository/GC_LoginUpdated/android.widget.TextView - Hi, Zaeem Akhtar'), 0)
 
 Mobile.closeApplication()
 
