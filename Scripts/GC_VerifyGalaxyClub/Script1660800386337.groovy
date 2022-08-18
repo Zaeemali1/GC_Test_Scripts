@@ -61,7 +61,7 @@ else {
 }
 
 Mobile.tap(findTestObject('Object Repository/Image/android.widget.ImageView (1)'), 0)
-
+Mobile.closeApplication()
 
 
 
